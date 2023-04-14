@@ -10,7 +10,7 @@ body {
 }
 .menu_iner {
   height: 700px;
-  background-image: url(../img/img_1.png);
+  background-image: url(/img/img_1.png);
   background-repeat: no-repeat;
 }
 .menu_iner_iner{
