@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.menu_iner {
+  height: 700px;
+  background-image: url(../img/img_1.png);
+  background-repeat: no-repeat;
+}
+.menu_iner_iner{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.logo {
+  margin-top: 52px;
+  padding-left: 87px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  padding-left: 243px;
+  padding-right: 206px;
+  padding-top: 72px;
+}
+.nav li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 10px;
+}
+.nav li a:hover {
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+}
+.text_all {
+  padding-left: 102px;
+}
+.text_1 {
+  font-size: 80px;
+  font-family: "Montserrat";
+  color: rgb(19, 14, 39);
+  font-weight: 500;
+  line-height: 80px;
+  text-align: left;
+  min-width: 387px;
+  padding: 0;
+  margin: 103px 0 0 0;
+  
+}
+.text_2 {
+  font-size: 80px;
+  font-family: "Montserrat";
+  color:#fff;
+  font-weight: 500;
+  line-height: 80px;
+  text-align: left;
+  min-width: 387px;
+  padding: 20 0 0 0;
+  margin: 0;
+}
+.text_3 {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  max-width: 500px;
+  padding: 57px 0 0 0;
+  margin: 0;
+}
+
+/* End bloc_1 */
+
+.text_title {
+  display: flex;
+  padding-left: 102px;
+  margin-bottom: 90px;
+}
+.title_1 {
+  font-size: 50px;
+  font-family: "Couture";
+  color: rgb(198, 35, 20);
+  font-weight: bold;
+  line-height: 80px;
+  text-align: left;
+}
+.title_2 {
+  font-size: 50px;
+  font-family: "Couture";
+  color: #130e27;
+  font-weight: bold;
+  line-height: 80px;
+  text-align: left;
+  padding-left: 22px;
+}
+.cards {
+  padding-left: 25px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  max-height: 143px;
+}
+.cards_text {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+.text_1c {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  text-align: center;
+}
+.text_2c {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  text-align: center;
+}
+.text_3c {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  text-align: center;
+}
+.text_4c {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 74px;
+}
+
+/* End bloc_2 */
+
+.bloc_3 {
+  height: 119px;
+  background-color: #130e27;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 102px;
+  padding-right: 109px;
+}
+.text_bloc {
+  font-size: 18px;
+  font-family: PT Serif;
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  margin-right: 126px;
+}
+.button {
+  background-color: red;
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 268px;
+  height: 64px;
+  margin-top: 31px;
+  margin-bottom: 24px;
+}
+
+/* End bloc_3 */
+
+.bloc_4 {
+  background-color: #efefef;
+  min-height: 615px;
+}
+.team_title {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Montserrat";
+  color: rgb(19, 14, 39);
+  font-weight: bold;
+  line-height: 80px;
+  padding-top: 60px;
+  padding-bottom: 66px;
+  margin: 0;
+}
+.cards_2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 66px;
+  margin-left: 100px;
+  margin-right: 109px;
+}
+.team_iner {
+  min-width: 319px;
+  min-height: 390px;
+  text-align: center;
+  margin: 0 10px;
+  background-color: #fff;
+}
+.team_title_1 {
+  font-size: 22px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 22px;
+  font-weight: 400;
+  padding-top: 36px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+.team_title_2 {
+  font-size: 60px;
+  font-family: "Montserrat";
+  color: rgb(198, 35, 20);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 80px;
+  margin: 0;
+}
+.team_text {
+  font-size: 18px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 18px;
+  padding-top: 36px;
+  padding-bottom: 38px;
+  min-width: 166px;
+  min-height: 125px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0;
+}
+.team_button {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 22px;
+  border-radius: 5px;
+  border: 1px;
+  background-color: rgb(19, 14, 39);
+  cursor: pointer;
+  padding: 17px 50px;
+  margin: 30px 50px 38px 50px;
+  width: 206px;
+}
+
+/* End bloc_4 */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  min-height: 189px;
+  background-color: #130e27;
+  margin: 0 auto;
+}
+.footer_text p {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  padding-top: 75px;
+  padding-right: 86px;
+}
+.footer_icon {
+  font-size: 60px;
+  font-family: "QuiteChocolatey";
+  color: rgb(198, 35, 20);
+  line-height: 30px;
+  min-width: 190px;
+  min-height: 75px;
+  padding-top: 65px;
+  padding-bottom: 59px;
+}
+
+/* End Proect_0.0.1 */
+/*  */
